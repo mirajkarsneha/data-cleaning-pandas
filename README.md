@@ -23,15 +23,14 @@ All individuals survived unless noted otherwise. Entries on the spreadsheet are 
 ### 📝 Description of each column how it is cleaned
 - Date Column - Removed the word "Reported" from the string and kept the date as it is.
 - Year Column - Replaced two numbers which has '&' and replaced it with average of two numbers
-- Type Column - Replaced 'Unverified', 'Questionable', 'Under investigation' with 'Unconfirmed'
-- Activity Column - Replaced special charaters with empty values.
+- Type Column - Replaced 'Unverified', 'Questionable', 'Under investigation' with 'Unconfirmed'; record based on string content (fatal vs non-fatal)
+- Activity Column - Replace special characters with empty values, dropped nans
 - Name Column - Kept name as it is just replaced female|nan|NaN with empty value.
 - Sex Column - Kept F and M values and replaced other with empty value.
-- Age Column- Replaced two numbers which has 'and|or|to|&|' and replaced it with average of two numbers. Converted decimal values to integer.
-  Pemove ½ and rounded up the numbers (Eg. 6½ coverted to 6.5 and rounded up). 
+- Age Column- Replaced two numbers which has 'and|or|to|&|' and replaced it with average of two numbers. Converted decimal values to integer. Removed ½ and rounded up the numbers (Eg. 6½ converted to 6.5 and rounded up). 
 - Injury Column - Renamed to fatal if fatal is in string and non Fatal if "Fatal" not in string
 - Species Column - Removed empty space from the label.
-- Time Column - Formated time stamp
+- Time Column - Format timestamp
 
 ### 🏗️ Project Structure
 This is a python project which a has below mentioned files.
