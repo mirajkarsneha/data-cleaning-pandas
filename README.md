@@ -31,7 +31,7 @@ All individuals survived unless noted otherwise. Entries on the spreadsheet are 
   Pemove ½ and rounded up the numbers (Eg. 6½ coverted to 6.5 and rounded up). 
 - Injury Column - Renamed to fatal if fatal is in string and non Fatal if "Fatal" not in string
 - Species Column - Removed empty space from the label.
-- Time Column -
+- Time Column - Formated time stamp
 
 ### 🏗️ Project Structure
 This is a python project which a has below mentioned files.
