@@ -33,7 +33,7 @@ All individuals survived unless noted otherwise. Entries on the spreadsheet are 
 - Time Column - Format timestamp
 
 ### 🏗️ Project Structure
-This is a python project which a has below mentioned files.
+This is a python project has below mentioned files.
 - main.ipnyb - Main file is the main file which calls the functions defined in functions.py file and returns the clean data file in csv format.
 - functions.py - This file contains all the definations(functions) and the loagic defined.
 - README.md - Describes what the project is, how it is structured and what changes are applied to get a clean data file.
